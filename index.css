@@ -5,17 +5,15 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
   }
-  body{
-    background: radial-gradient(circle, rgb(54, 163, 78), #fff);
-
-  }
+  
   
   .container-logo {
     max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #000;
+    background: #000;
+    
   }
   .logo {
     max-width: 75%;
@@ -73,7 +71,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: radial-gradient(circle, rgb(54, 163, 78), #fff);
     text-align: center;
 
     padding: 10px;
@@ -89,6 +86,9 @@
     color: gold;
     margin: 10px;
   }
+  .encloser{
+  background: radial-gradient(circle, rgb(54, 163, 78),#000000cf); }
+
   .event-logo{
     font-size: 2.5vw;
     color: gold;
@@ -100,7 +100,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background: radial-gradient(circle, rgb(54, 163, 78), #fff);
+   
 
     padding: 10px;
     text-align: center;
@@ -128,16 +128,7 @@
     width: 80%;
     margin: 0 auto;
   }
-  .container-contact {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10%;
-    padding-top: 10%;
-    color:#fff;       
-    justify-content: space-around;
-  }
-  
+ 
   .address {
     width: 15vw;
     margin-left: 18px;
@@ -188,199 +179,60 @@ footer a {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
-  .box {
-    width: 80%; /* Use percentage for responsiveness */
-    max-width: 400px; /* Set a maximum width for larger screens */
-    margin: 0 auto;
-    padding: 1rem;
-    background: radial-gradient(#7d3780, #7d3780);
-    border:2px solid #000;
+  .about{
+   background: radial-gradient(circle, rgb(54, 163, 78),#000000cf);
   }
-  
-  .inputbox {
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .about-heading{
+    text-align: center;
+    padding:2vw;
+    color:#fff;
   }
-  
-  .inputbox input {
-    width: 100%; /* Use 100% width to fill the container */
-    padding: 8px;
-    margin: 5px;
+  .about-description{
+    text-align: center;
+    padding:2vw;
+    color:#fff;
   }
-  .btn-submit {
+
+  /* contact */
+  .container-contact {
     width: 100%;
     display: flex;
-    justify-content: center;
-  }
-  .sub {
-    width: 50%;
-    padding: 10px;
-    background-color: aqua;
-    border-radius: 5%;
-  }
-  .register-heading {
-    text-align: center;
-    color:#fff;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust the gap between boxes as needed */
-    justify-content: space-around; /* Adjust alignment as needed */
-  }
-  
-  .event-box {
-    width: 600px; /* Adjust the width of each box as needed */
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-    color:#fff;
-  }
-  
-  /* Optional: Add more styles for the image and description */
-  .event-box img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .event-box p {
-    margin: 10px 0;
-  }
-  .event-event-heading {
-    text-align: center;
-    color:#fff;
-    padding:20px;
-  }
-  .btn-event {
-    width: 25%;
-    padding: 15px;
-    background-color: rgb(0, 255, 234);
-    font-size: 1.1rem;
-  }
-  
-  /* .event-inner-container{
-    max-width:100vw;
-    height:100vh;
-   
-  } */
-  .event-inner-container{
-    color: #fff;
-  }
-  .event-inner-heading,
-  .event-inner-tag {
-    text-align: center;
-    color: #fff;
-  }
-  .event-inner-logo {
-    width: 25%;
-    padding: 20px;
-    margin-left: 80px;
-  }
-  .event-inner-second-container {
-    max-width: 100vw;
-    display: flex;
-    justify-content: center;
-  color:#fff;
-    align-items: center; 
-    /* flex-direction: column; */
-  }
-  
-  /* .event-inner-scope,
-  .event-inner-requirements {
-    width: 70%;
-  } */
-  .event-inner-description {
-    padding: 30px;
-  }
-  .event-inner-third-container,.event-inner-scope,
-  .event-inner-requirements  {
-    width: 100%;
-    text-align: center;
-   
-  }
-  
-  .coordinators {
-    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 10%;
+    color:#fff;       
     justify-content: space-around;
-    padding:40px;
-    
-  }
-  .faculty{
-    padding:40px;
-  }
-  .student{
-    padding:40px;
-  }
-  a:hover {
-    color: #e9bd43;
+    background: #000;
   }
   
-  /* Media Query for Responsive Design */
-  @media (min-width: 600px) {
+  .address {
+    width: 15vw;
+    margin-left: 18px;
+    margin-top: 6px;
+    line-height: 1.3rem;
   }
-  @media (max-width: 500px) {
-    .box {
-      width: 60%;
-    }
-    .container-contact {
-      flex-direction: column;
-    }
-    .event-description {
-      width: 80%;
-    }
-    .container-event-goals {
-      flex-direction: column;
-      color: #fff;
-    }
-    .footer {
-      flex-direction: column;
-     
-    }
-    .hero-container-img {
-      width: 60vw;
-    }
-    .brouchure {
-      max-width: 60vw;
-    }
-    .event-heading {
-      font-size: 2rem;
-    }
-    .event-goal-heading {
-      font-size: 1.5rem;
-    }
-    .contact-logo {
-      max-width: 50vw;
-    }
-    footer h1 {
-      text-align: center;
-    }
-    .one-container {
-      width:80vw;
-      font-size: 0.7rem;
-      color:#fff;
-      margin-bottom:40px;
-    }
-    .address{
-      width:80vw;
-      color:#fff;
-    }
-    .event-inner-second-container{
-      flex-direction: column;
-    }
-    .event-inner-third-container{
-      flex-direction: column;
-    }
-    .coordinators{
-      flex-direction: column;
-    }
-    .event-inner-logo{
-      width:70%;
-    }
-    .container-logo,.logo{
-      width:100%;
-    }
+  .phnoContainer {
+    display: flex;
+    padding-top: 10px;
+  }
+  .emailContainer {
+    display: flex;
+    padding-top: 10px;
+  }
+  .map {
+    width: 280px;
+  }
+
+   /* Apply basic styles to the grid container */
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-gap: 10px; /* Spacing between grid items */
+  }
+
+  /* Apply styles to grid items (placeholders for content) */
+  .grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
   }
